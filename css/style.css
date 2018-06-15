@@ -1,0 +1,52 @@
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+input,textarea
+{
+    margin-top: 10px;
+}
+textarea
+{
+    width: 520px;
+}
+input#fname,#btype
+{
+    width: 257px;
+}
+
+div.box
+{
+    display: block;
+    width: 550px;
+    border: 1px solid black;
+    padding-left:15px;
+    padding-bottom: 5px;
+    float: left;
+}
+button
+{
+  margin-left: 35%;
+}
+table
+{
+    float: left;
+    border-collapse: collapse;
+    border-spacing: 10px; 
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+table tr td
+{
+    margin-left: 10px;
+}
+
